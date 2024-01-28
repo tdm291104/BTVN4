@@ -1,0 +1,147 @@
+body{
+    background: #2f3238;
+}
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    
+}
+.Lily{
+    
+    margin: 20px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+    position: relative; 
+    opacity: 0.5; 
+}
+.Lily .box1{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 400px;
+    height: 300px;
+}
+img{
+    background:  #3085a3;
+    position: absolute;    
+    width: 500px;
+    border: 0;
+    display: block;
+    transform: translateX(-30px);
+}
+.Lily:hover{
+    opacity: 1;
+}
+.Lily:hover img{
+    transform: translateX(30px);
+    transition: 0.5s;
+}
+.box2 h2{
+    font-weight: 50;
+}
+.box2 h2 span{
+    font-weight: 900;
+}
+p{
+    visibility: hidden;
+    font-weight: 50;
+}
+.Lily .box2{
+    width: 100%;
+    position: absolute;
+    top: 350px;
+    color: aliceblue;
+    font-size: 17px;
+    transform: translate(50px,-150px);
+}
+.Lily:hover .box2{
+    transition: 0.5s;
+    transform: translate(50px,-200px);
+}
+.Lily:hover .box2 p{
+    visibility: visible;
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.Sadie{
+    
+    margin: 20px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+    position: relative; 
+    opacity: 0.8; 
+}
+.box3{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 400px;
+    height: 300px;
+}
+.box4{
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 350px;
+    color: aliceblue;
+    font-size: 17px;
+    transform: translate(60px,-160px);
+}
+.box4 h2{
+    margin-right: 120px;
+    text-align: center;
+    color: #484c61;
+    font-weight: 50;
+    transform: translateY(-70px);
+}
+
+.box4 h2 span{
+    font-weight: 900;
+}
+.box4 p{
+    margin-right: 120px;
+    text-align: center;
+}
+.Phong{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    opacity: 0;
+    background-image: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+}
+.Sadie:hover .Phong{
+    opacity: 1;
+}
+.Sadie:hover .box4 h2{
+    color: aliceblue;
+    transform: translateY(-100px);
+    transition: 0.5s;
+}
+.Sadie:hover .box4 p{
+    visibility: visible;
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+
+
+/* linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%) */
+
