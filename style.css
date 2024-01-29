@@ -129,6 +129,7 @@ p{
 }
 .Sadie:hover .Phong{
     opacity: 1;
+    transition: 0.5s;
 }
 .Sadie:hover .box4 h2{
     color: aliceblue;
